@@ -44,7 +44,9 @@ This contains a simple real-time pose recognition system using Mediapipe for lan
    * Outputs real-time pose classification results.
 
 # How to Run the Project 🚀
-* You can run this in either jupyter notebopok, Google colab or any similar environment.
+* pose_recognition.ipynb contais the code for the project,
+* pose_recognitio_model.h5 is the trained model with 100 images for each class.
+* You can run this in either jupyter notebook, Google colab or any similar environment.
 * 1️⃣ Install Dependencies
 ```bash
 pip install tensorflow opencv-python mediapipe numpy pandas
