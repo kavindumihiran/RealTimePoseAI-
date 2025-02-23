@@ -4,7 +4,7 @@ This contains a simple real-time pose recognition system using Mediapipe for lan
 # Technologies Used 🛠️
 * Programming Language: Python,
 * Frameworks & Libraries:,
-         * TensorFlow/Keras,
-         * OpenCV (cv2),
-         * Mediapipe ,
-         * NumPy, Pandas,
+  * TensorFlow/Keras,
+  * OpenCV (cv2),
+  * Mediapipe ,
+  * NumPy, Pandas,
