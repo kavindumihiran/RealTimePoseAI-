@@ -30,4 +30,10 @@ This contains a simple real-time pose recognition system using Mediapipe for lan
      * **First 3 layers:** LSTM layers to capture temporal patterns.
      * **Final 2 layers:** Dense layers for classification.
    * Activation Functions:
-     *  
+     * **ReLU** for hidden layers.
+     * Softmax for output layer (multi-class classification)
+   * **Optimizer:** Adam for efficient convergence.
+   * Training:
+     * **1500 epochs** for accutare model learning.
+     * Achieved 100% accuracy on the three-class dataset.
+   
