@@ -32,8 +32,31 @@ This contains a simple real-time pose recognition system using Mediapipe for lan
    * Activation Functions:
      * **ReLU** for hidden layers.
      * Softmax for output layer (multi-class classification)
-   * **Optimizer:** Adam for efficient convergence.
+   * Optimizer: Adam for efficient convergence.
    * Training:
      * **1500 epochs** for accutare model learning.
      * Achieved 100% accuracy on the three-class dataset.
-   
+
+4. Live Pose Prediction
+   * Takes live input from a webcam.
+   * Extract body landmarks using Mediapipe.
+   * Passes landmark coordinates to the trained CNN-LSTM model.
+   * Outputs real-time pose classification results.
+
+# How to Run the Project 🚀
+* You can run this in either jupyter notebopok, Google colab or any similar environment.
+* 1️⃣ Install Dependencies
+```bash
+pip install tensorflow opencv-python mediapipe numpy pandas
+```
+* 2️⃣ Run the Jupyter Notebook
+```bash
+jupyter notebook
+```
+* 3️⃣ Train the Model (if needed)
+* 4️⃣ Run Real-Time Pose Detection
+
+# Future Improvements 📌
+* Expand the dataset with more poses and more data for each class
+* Implement gesture-based control for smart applications.
+* Improve model generalization to different lighting and camera angles 
