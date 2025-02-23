@@ -19,4 +19,8 @@ This contains a simple real-time pose recognition system using Mediapipe for lan
    * Processes images frame-by-frame for live pose recognition.
 
 2. Custom datase creation
-   * 
+   * Collected 100 images per pose using OpenCV (cv2) in jupyter Notebook.
+   * Dataset includes three pose classe.
+      * Both hands up
+      * Left hand up
+      * Hands crossed 
