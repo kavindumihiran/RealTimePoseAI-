@@ -12,7 +12,7 @@ This contains a simple real-time pose recognition system using Mediapipe for lan
   * Mediapipe ,
   * NumPy, Pandas,
 
-# Features
+# Features 📌
 1. Real time pose detection
    * Uses Mediapipe to ecxtract the facial and body landmarks.
    * Captures real-time video feed and detect these poses.
@@ -20,7 +20,14 @@ This contains a simple real-time pose recognition system using Mediapipe for lan
 
 2. Custom datase creation
    * Collected 100 images per pose using OpenCV (cv2) in jupyter Notebook.
-   * Dataset includes three pose classe.
+   * Dataset includes three pose classe:
       * Both hands up
       * Left hand up
-      * Hands crossed 
+      * Hands crossed
+
+3. CNN-LSTM Model for pose classification
+   * 5-layer architecture:
+     * **First 3 layers:** LSTM layers to capture temporal patterns.
+     * **Final 2 layers:** Dense layers for classification.
+   * Activation Functions:
+     *  
