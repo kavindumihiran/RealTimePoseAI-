@@ -1,5 +1,5 @@
 # RealTimePoseAI-
-This contains a simple real-time pose recognition system using Mediapipe for landmark detection and a custom-made CNN-LSTM sequential model for classification.This model dtects three poses,
+This contains a simple real-time pose recognition system using Mediapipe for landmark detection and a custom-made CNN-LSTM sequential model for classification.This model detects three poses,
 * Both hands up
 * Left hand up
 * Hands crossed
